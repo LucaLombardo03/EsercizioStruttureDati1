@@ -12,7 +12,7 @@ namespace Strutture_Dati_1
         private const string file = @"file.txt";
         private const string file_finito = @"filefinito.txt";
 
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             List<double> numeri = new List<double>();
             using (StreamReader rfile = new StreamReader(file))
